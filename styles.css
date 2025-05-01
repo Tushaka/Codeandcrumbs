@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family:'poppins',sans-serif; */
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:#fae8e0;
+    
+}
+#header{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    padding: 10px 50px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1000;
+    /* background-color: #ccc; */
+
+}
+.logo{
+    width: 150px; 
+    
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    background-color: #dfafdb;
+    border-radius: 18px;
+    text-decoration: none;
+    width: 200%;
+    padding: 10px 10px;
+    &:hover{
+        background-color:#eea2af;
+    }
+}
+.search{
+    position: relative;
+    width: 500px;
+}
+.search input {
+    width: 100%; /* Make the input take full width of the container */
+    padding: 10px 40px 10px 15px; /* Add padding for spacing, leaving room for the icon on the right */
+    font-size: 16px; /* Increase font size for better readability */
+    border: 2px solid #dfafdb; /* Pink border */
+    border-radius: 10px; /* Rounded corners */
+    outline: none; /* Remove default focus outline */
+    color: #333; /* Text color */
+  }
+  .search input::placeholder {
+    color: #ccc; /* Style the placeholder text */
+  }
+  .search i {
+    position: absolute; /* Place the icon inside the container */
+    top: 50%; /* Center vertically */
+    right: 15px; /* Position inside from the right edge */
+    transform: translateY(-50%); /* Adjust for proper centering */
+    font-size: 18px; /* Adjust icon size */
+    color: #ccc; /* Icon color */
+    pointer-events: none; /* Prevent blocking interactions with the input */
+  }
+ 
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.header-text{
+    text-align:left;
+    font-size: 25px;
+    flex-direction: column;
+    margin:50px 0px 0px 60px;
+    position: relative;
+    color: #a53f56;
+    flex-basis: 50%;
+    padding-top: 120px;
+}
+.impfood{
+    width:350px;
+    position: relative;
+    margin:10px 0px 0px 140px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*Two equal columns */
+    grid-template-rows: 1fr 1fr; /*Two rows for the images*/
+    gap:50px ;/* Space between images */
+    justify-items: end; /* Align items to the right */
+    flex-basis:30%; 
+    width:100px;
+    height:100px;
+    padding-top: 170px;
+   
+  
+} 
+
+.g{
+    width:180px;
+    height:200px; 
+    border-radius: 10px;
+    transition: opacity 0.3s ease; /* Smooth transition */
+    opacity: 1;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+/*about-----------------------------------*/
+.about{
+    padding:80px 0px;
+   
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.subtitle{
+    text-align: center;
+    font-size:45px;
+    color:#a53f56;
+    margin:40px 0px;
+    padding-top: 130px;
+}
+.about-col-1{
+    flex-basis: 30%;
+    border: 5px solid #dfafdb; /* Pink border */
+    border-radius: 18px; /* Rounded corners */
+    margin:0px 0px 0px 90px;
+    background-color:white;
+}
+.about-col-1 img{
+    width:250px;
+    margin: 0px 150px;
+}
+.about-col-1 p{
+    font-size: 18px;
+    margin: 10px 50px;
+    text-align: justify;
+}
+.about-col-2{
+    flex-basis: 55%;
+}
+.about-col-2 h3{
+    color: #a53f56;
+    font-size:  40px;
+    text-align: center;
+}
+.teampic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the first row */
+    grid-auto-rows: auto; /* Rows adjust based on content height */
+    justify-items: center; /*Center images and descriptions horizontally*/
+    margin:30px 60px;
+    color:#a53f56;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+  }
+  .teampic2{
+    display: grid;
+    grid-template-columns: repeat(2, 250px); 
+    grid-auto-rows: auto; /* Rows adjust based on content height */
+    margin:10px 0px 10px 170px;
+    justify-items: center;
+    color:#a53f56;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .t{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+/*food review-----------------------------*/
+
+ 

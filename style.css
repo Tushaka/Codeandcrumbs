@@ -1,0 +1,133 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:#fff6eb;
+    
+}
+.container{
+    width:100%;
+    overflow: hidden;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1000;
+    /* background-color: #ccc; */
+
+}
+.logo{
+    padding:0px 30px;
+    width: 150px; 
+    
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    background-color: #dfafdb;
+    border-radius: 18px;
+    text-decoration: none;
+    width: 200%;
+    padding: 10px 10px;
+    &:hover{
+        background-color:#eea2af;
+    }
+}
+.search{
+    position: relative;
+    width: 500px;
+    padding: 0px 40px 0px 10px;
+}
+.search input {
+    width: 100%; /* Make the input take full width of the container */
+    padding: 10px 40px 10px 15px; /* Add padding for spacing, leaving room for the icon on the right */
+    font-size: 16px; /* Increase font size for better readability */
+    border: 2px solid #dfafdb; /* Pink border */
+    border-radius: 10px; /* Rounded corners */
+    outline: none; /* Remove default focus outline */
+    color: #333; /* Text color */
+  }
+  .search input::placeholder {
+    color: #ccc; /* Style the placeholder text */
+  }
+  .search i {
+    position: absolute; /* Place the icon inside the container */
+    top: 50%; /* Center vertically */
+    right: 15px; /* Position inside from the right edge */
+    transform: translateY(-50%); /* Adjust for proper centering */
+    font-size: 18px; /* Adjust icon size */
+    color: #ccc; /* Icon color */
+    pointer-events: none; /* Prevent blocking interactions with the input */
+  }
+ /*nav bar ends*/
+ .container h1{
+    text-align:center;
+    padding-top: 120px;
+    font-size: 50px;
+    color:#a53f56;
+ }
+   
+  
+
+
+.newa-col-1{
+    float:left;
+    width:50%;
+
+    
+}
+.newa-col-1 p{
+   justify-content: center;
+   font-size: 35px;
+   text-align: center;
+}
+.nmain{
+    width:400px;
+    height: 400px;
+    align-items: center;
+    border-radius:270px;
+    margin:0px 0px 0px 180px;
+    
+    }
+
+
+.newa-col-2{
+    position: fixed;
+    right: 0;
+    
+    float:right;
+    width:40%;
+    font-size: 20px;
+    border:5px solid #dfafdb;
+    padding:20px;
+    background-color: #dfafdb;
+    margin: 0px 20px;
+    border-radius: 18px;
+} 
+.location{
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Aligns items vertically in the center */
+    gap: 10px;
+} 
+.location i{
+    font-size: 20px; /* Adjust the size of the icon */
+    color: black;
+}
+.location h3{
+    margin: 0; /* Remove default margins from h3 */
+    padding: 10px 0;
+}
+
