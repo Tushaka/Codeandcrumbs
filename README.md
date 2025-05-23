@@ -1,2 +1,2 @@
 # Code and Crumbs
-A restaurant and food review website which consist of detailed information about restaurant including location and ratings.
+A restaurant and food review website which consist of detailed information about restaurant including location and ratings. This is an ongoing project.
