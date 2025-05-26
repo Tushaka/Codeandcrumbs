@@ -149,7 +149,7 @@ nav ul li a{
     float: left;
     height:auto;
 
-    padding-bottom: 30px;
+  
     
    
 }
@@ -201,9 +201,15 @@ nav ul li a{
     width: 50%;
     float: right;
     height: auto;
-    padding-bottom: 50px;
+
    
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 /*food review-----------------------------*/
 
